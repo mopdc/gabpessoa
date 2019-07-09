@@ -1,211 +1,352 @@
-@font-face {font-family: "BodoniSvtyTwoITCTT";
-  src: url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.eot");
-  src: url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.eot?#iefix") format("embedded-opentype"),
-  url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.woff2") format("woff2"),
-  url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.woff") format("woff"),
-  url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.ttf") format("truetype"),
-  url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.svg#Bodoni SvtyTwo ITC TT") format("svg");
-}   
-
-
-html, body {
-height: 100%;
+@font-face {
+    font-family: "BodoniSvtyTwoITCTT";
+    src: url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.eot");
+    src: url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.svg#Bodoni SvtyTwo ITC TT") format("svg");
 }
 
-.container {
-height: 100%;
-width: 100%;
-display: table;
-margin-left: 100px;
-padding-right: 125px;
 
+html {
+    height: 100%;
 }
 
-.row {
-display: table-cell;
-height: 100%;
-width: 100%;
-vertical-align: middle;
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+body {
+    position: relative;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 50px;
+    /* Set same as footer's height */
 }
 
 .clear {
-clear: both;
+    clear: both;
+}
+
+.br {
+    background: #eff0f5;
+    width: 1px !important;
+    height: 100%;
+}
+
+.MainPart::after {
+    content: '';
+    min-height: 550px;
+    width: 1px;
+    background: #eff0f5;
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    top: 0;
 }
 
 .side-a {
-width: 45%;
-margin-top: 125px;
-float: left;
-padding: 0px;
+    width: 100%;
+    float: left;
+    padding: 0px;
 }
 
 .side-b {
-width: 3%;
-height: 500px;
-border-left: solid 1px #eff0f5;
-float: left;
+    width: 3%;
+    height: 500px;
+    border-left: solid 1px #eff0f5;
+    float: left;
 }
 
-.side-c {
-margin-top: 25px;
-width: 45%;
-float: left;
-
+a:link,
+a:visited {
+    color: black;
+    text-decoration-line: underline;
 }
 
-a:link, a:visited{
-color: black;
-text-decoration-line: underline;
+a:active,
+a:hover,
+a:focus {
+    color: #9013fe;
 }
 
-a:active, a:hover, a:focus, li:active {
-color: #9013fe;
+#oi {
+    margin-top: 15%;
 }
 
 .oi-tudo-bem {
 
-font-family: BodoniSvtyTwoITCTT;
-font-size: 80px;
-font-weight: bold;
-font-style: normal;
-font-stretch: normal;
-line-height: 0.38;
-letter-spacing: normal;
-color: #000000;
-top: 20px;
-    
+    font-family: BodoniSvtyTwoITCTT;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    top: 20px;
+
+}
+
+#footer {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    height: 50px;
 }
 
 .line {
-width: 2px;
-height: 540px;
-border: solid 2px #eff0f5;
+    width: 2px;
+    height: 540px;
+    border: solid 2px #eff0f5;
 }
 
-.meu-nome{
-margin-top: 40px;
-font-family: 'Roboto', sans-serif;
-font-size: 20px;
-font-weight: normal;
-font-style: normal;
-font-stretch: normal;
-line-height: 1.5;
-letter-spacing: normal;
-color: #000000;
+.meu-nome {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
 }
-  
+
 .meu-nome .text-style-1 {
-font-weight: bold;
+    font-weight: bold;
 }
 
-.sou-ux{
-margin-left: 10px;
-font-family: 'Roboto', sans-serif;
-font-size: 18px;
-font-weight: normal;
-font-style: normal;
-font-stretch: normal;
-line-height: 1.6;
-letter-spacing: normal;
-color: #000000;
-margin-top: 25%;
+.sou-ux {
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.br.sideMore {
+    margin: 50px auto;
+}
+
+.side-a.sideMore {
+    margin-top: 100px;
 }
 
 .conteudo {
-display: inline-block;
+    display: inline-block;
 
 }
 
-.menu-interno{
-display:inline-block;
-margin-top: 20px;
-font-family: 'Roboto', sans-serif;
-font-weight: 500  ;
+.menu-interno {
+    display: inline-block;
+    margin-top: 20px;
 }
 
-
-.vamos-conversar{
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-font-weight: bold;
-font-style: normal;
-font-stretch: normal;
-line-height: normal;
-letter-spacing: normal;
-color: #000000;
-width: 100%;
+.vamos-conversar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    width: 100%;
 }
 
 .menu-rodape {
-display:inline-block;
-font-family: 'Roboto', sans-serif;
-font-size: 12px;
-font-weight: bold;
-font-style: normal;
-font-stretch: normal;
-line-height: normal;
-letter-spacing: normal;
-text-align: center;
-color: #000000;
-margin-top:10px;
-width: 100%;
-  
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+
+    color: #000000;
+    margin-top: 10px;
+    width: 100%;
+
 }
 
-.menu-rodape-itens{
-padding-left:10px;
-padding-right: 10px;
-color:black;
+.menu-rodape-itens {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
 }
 
-.sobre-estilo{
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-font-weight: normal;
-font-style: normal;
-font-stretch: normal;
-line-height: 1.6;
-letter-spacing: normal;
-color: #000000;
-margin-top: 12%;
+.sobre_estilo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 8%;
 }
 
 .apple-estilo {
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-font-weight: normal;
-font-style: normal;
-font-stretch: normal;
-line-height: 1.6;
-letter-spacing: normal;
-color: #000000;
-margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #000000;
+
 }
 
 .apple-estilo .text-style-1 {
-font-size: 14px;
+    font-size: 14px;
 }
 
 .descomplica-estilo {
 
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-font-weight: normal;
-font-style: normal;
-font-stretch: normal;
-line-height: 1.6;
-letter-spacing: normal;
-color: #000000;
-overflow-y: auto;
-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 23px;
+    letter-spacing: normal;
+    color: #000000;
+    overflow-y: auto;
+    width: 100%;
 }
 
 .descomplica-estilo .text-style-1 {
-font-size: 13px;
+    font-size: 13px;
 }
 
 .descomplica-estilo .text-style-2 {
-font-size: 14px;
+    font-size: 14px;
 }
 
+#menu-interno .nav-link {
+    padding: 0 10px 0 0;
+}
 
+#apple-menu {
+    margin-top: 7%;
+}
+
+#descomplica {
+    /* margin-top: 4%; */
+}
+
+/******************/
+
+@media only screen and (max-width:1170px) {
+    .align-self-center {
+        padding-top: 20px !important;
+    }
+    .oi-tudo-bem {
+        font-size: 50px !important;
+    }
+
+    .p0 {
+        padding: 0 15px !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1100px) {
+    .align-self-center {
+        padding-top: 20px !important;
+    }
+    .MainPart::after {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .align-self-center {
+        padding-top: 20px !important;
+    }
+    .MainPart::after {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    }
+
+    .side-a {
+        margin-top: 10% !important;
+    }
+
+    .sou-ux {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #menu-interno .nav-link {
+        padding: 0 2px 0 0;
+        font-size: 12px;
+    }
+
+    .oi-tudo-bem {
+        font-size: 40px !important;
+    }
+
+    .p00 {
+        padding: 0 !important;
+    }
+
+    .MainPart {
+        margin: 0;
+    }
+
+    .mobileHide {
+        display: none;
+    }
+
+    .MobileHide {
+        display: none;
+    }
+
+    #oi,
+    .sobre_estilo {
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .align-self-center {
+        padding-top: 20px !important;
+    }
+    .oi-tudo-bem {
+        font-size: 35px !important;
+    }
+
+    .list-inline-item:not(:last-child) {
+        margin-right: 3px;
+    }
+
+    #col_change {
+        padding-right: 0 !important;
+    }
+
+    .sideMore {
+        margin: 0;
+    }
+
+    #menu-interno .list-inline {
+        width: 105% !important;
+    }
+}

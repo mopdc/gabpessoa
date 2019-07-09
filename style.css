@@ -1,0 +1,202 @@
+@font-face {font-family: "BodoniSvtyTwoITCTT";
+  src: url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.eot");
+  src: url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.svg#Bodoni SvtyTwo ITC TT") format("svg");
+}   
+
+
+html, body {
+height: 100%;
+}
+
+.container {
+height: 100%;
+width: 100%;
+display: table;
+padding-right: 125px;
+
+}
+
+.row {
+display: table-cell;
+height: 100%;
+width: 100%;
+vertical-align: middle;
+}
+
+.clear {
+clear: both;
+}
+
+.side-a {
+width: 100%;
+margin-top: 125px;
+float: left;
+padding: 0px;
+}
+
+.side-b {
+width: 3%;
+height: 500px;
+border-left: solid 1px #eff0f5;
+float: left;
+}
+
+.side-c { 
+
+} 
+
+a:link, a:visited{
+color: black;
+text-decoration-line: underline;
+}
+
+a:active, a:hover, a:focus {
+color: #9013fe;
+}
+
+.oi-tudo-bem {
+
+font-family: BodoniSvtyTwoITCTT;
+font-size: 80px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: 0.38;
+letter-spacing: normal;
+color: #000000;
+top: 20px;
+    
+}
+
+.line {
+width: 2px;
+height: 540px;
+border: solid 2px #eff0f5;
+}
+
+.meu-nome{
+margin-top: 40px;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.5;
+letter-spacing: normal;
+color: #000000;
+}
+  
+.meu-nome .text-style-1 {
+font-weight: bold;
+}
+
+.sou-ux{
+margin-left: 10px;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.6;
+letter-spacing: normal;
+color: #000000;
+margin-top: 75px;
+}
+
+.conteudo {
+display: inline-block;
+
+}
+
+.menu-interno{
+display:inline-block;
+margin-top: 20px;
+}
+
+.vamos-conversar{
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #000000;
+width: 100%;
+}
+
+.menu-rodape {
+display:inline-block;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #000000;
+margin-top:10px;
+width: 100%;
+  
+}
+
+.menu-rodape-itens{
+padding-left:10px;
+padding-right: 10px;
+color:black;
+}
+
+.sobre-estilo{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 2;
+letter-spacing: normal;
+color: #000000;
+}
+
+.apple-estilo {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 2;
+letter-spacing: normal;
+color: #000000;
+
+
+.apple-estilo .text-style-1 {
+font-size: 14px;
+}
+
+.descomplica-estilo {
+
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 2;
+letter-spacing: normal;
+color: #000000;
+overflow-y: auto;
+width: 100%;
+}
+
+.descomplica-estilo .text-style-1 {
+font-size: 13px;
+}
+
+.descomplica-estilo .text-style-2 {
+font-size: 14px;
+}
+
+

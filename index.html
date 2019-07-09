@@ -1,181 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/198/happy-person-raising-one-hand_emoji-modifier-fitzpatrick-type-1-2_1f64b-1f3fb_1f3fb.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/198/happy-person-raising-one-hand_emoji-modifier-fitzpatrick-type-1-2_1f64b-1f3fb_1f3fb.png">
 
     <title>Gabriela Pessoa</title>
-	
-	<link href="//db.onlinewebfonts.com/c/f99da0cc089925103ee1ecbcf5758240?family=Bodoni+SvtyTwo+ITC+TT" rel="stylesheet" type="text/css"/>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+
+    <link href="//db.onlinewebfonts.com/c/f99da0cc089925103ee1ecbcf5758240?family=Bodoni+SvtyTwo+ITC+TT" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
-	
-  </head>
-<body>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
-<div class="container">
-		
-	<div class="row align-self-center">
+    <style>
+        div {
+            width: 100% !important;
+        }
 
-		<div class="parent">
+        #container {
+            /* text-align: center; */
+            display: inline-block;
+        }
 
-			<div class="side-a wow fadeInLeft animated">
+        .side-c {}
 
-					<h3 class="oi-tudo-bem">
-						oi, tudo bem?
-					</h3>
+        /* #col_change {
+			margin-left: 10%
+		} */
 
-					<div class="meu-nome">
-							Meu nome é Gabriela Pessoa, mas pode me chamar <br>
-							de <span class="meu-nome text-style-1">Gab.</span>
-					</div>		
+        .footer {
+            /* max-width: fit-content; */
+        }
 
-
-					<div class="menu-interno">
-						<ul class="list-inline" style="width: 100%;">
-								<li class="list-inline-item active" >
-								<a class="nav-link active" href="#" onclick="toggleVisibility('oi');">Oi!</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="nav-link" href="#" onclick="toggleVisibility('sobre');">Sobre</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="nav-link" href="#" onclick="toggleVisibility('apple-menu');">Apple Academy©</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="nav-link" href="#" onclick="toggleVisibility('descomplica');">Descomplica©</a>
-								</li>
-						</ul>
-					</div>
-					
-				</div>
-		</div>
-		<div class="side-b"></div>
-
-		<div class="side-c">
-
-			<div id="oi">
-				<p class="sou-ux wow fadeInRight">
-						Sou UX Researcher no <a href="https://descomplica.com.br/sobre/quem-somos/">@Descomplica</a> 🕵️‍♀️ <br>
-						Designer & Pesquisadora, apaixonada por pessoas, trocas, hábitos, conversas e histórias, comportamentos e seus porquês.
-				</p>			
-			</div>
-
-			<div class="sobre-estilo wow fadeIn animated" id="sobre" style="display: none;">
-				<p >	
-						Carioca ☀️, 24 anos, Designer de Produto formada pela PUC - Rio. <br> <br>
-
-						Entusiasta da Antropologia do Consumo. Aprender sobre cultura, hábitos de consumo e como isso afeta nossas vidas  me ajuda a ver de maneira mais holística as investigações do dia a dia. <br> <br>
-						
-						Acredito que dando voz às pessoas hoje, por meio de conversas, ouvidos atentos e  empatia, é possível humanizar as relações do futuro. <br> <br>
-						
-						*Atualmente estou empenhada em aprender mais sobre análise/ciência de dados para ter mais domínio sobre pesquisa quantitativa. Tem alguma dica? Curso que achou interessante? Vamos conversar 🤓
-				</p>	
-			</div>
-
-			<div class="apple-estilo wow fadeIn animated" id="apple-menu" style="display: none;">
-					
-					<p>
-							UX Designer &  iOS Developer | Jan > Out 16
-					</p>
-									
-	
-					<p>
-							Considero que esse foi o início minha carreira em UX, me desafiando a aprender mais <br>
-							sobre lógica de programação, desenvolvimento para iOS (Swift) e sobre Usabilidade. <br> Durante o programa tinha muita liberdade de planejamento de projetos e sobre os <br>
-							nossos processos de trabalho, foi onde eu descobri minha vontade por atuar na área de <br>pesquisa e usabilidade pois tínhamos total autonomia, então sempre implementava<br> processos de pesquisa durante o desenvolvimento e aprendia com os erros.
-
-							<br> <br>
-
-							Na Apple Academy trabalhávamos com projetos de diversos temas, mas todos voltados<br>
-							para desenvolvimento de aplicativos e novas tecnologias, então tive contato desde <br>desenvolvimento de AI, apps para Saúde até aplicativos de compra e venda de ingressos.
-							
-							<br><br><br>
-							#iOS #UX #Pesquisa
-							
-					</p>	
-			</div>
-
-			<div class="descomplica-estilo wow fadeIn animated" id="descomplica" style="display: none;">
-					<p>
-						<span class="descomplica-estilo text-style-1">
-							<span style="font-weight: bold"> Researcher Pleno | Mai 19 > atual 	</span>	<br>
-							UX Researcher Junior | Mar 18 > Mai 19		<br>
-							Product Designer Junior | Jan 18 > Mar 18	<br> 
-							Estágiária de UX | Out 16 > Dec 17 
-						</span>		
-					</p>
-	
-					<p>
-							Comecei como estagiária na área de Web Conversion onde tive contato com diversas<br>
-							áreas que envolviam Performance, Growth, etc. Após um tempo migrei para o time de<br> produto, onde tive a oportunidade de trabalhar e presenciar a migração de sistemas e <br>implementação de uma nova experiência de plataforma de estudos.
-
-							<br><br>
-
-							Atualmente dentro da da área de Pesquisa, fico focada em entender comportamentos<br>de estudos, hábitos de consumo e como podemos melhorar o dia a dia dos alunos e da <br>empresa. E para esse entendimento realizo testes de usabilidade, entrevistas<br> qualitativas, pesquisas de campo e análises de dados qualitativos e quantitativos.
-
-							<br><br>
-
-							E como Ux Researcher Pleno tenho maior responsabilidade e projetos próprios.<br>
-							Ativamente em contato com outras áreas para o desenvolvimento das investigações e<br>
-							em alinhamento com a equipe de Ciência de dados. Entendendo mais sobre projetos e<br> alinhamento com estratégia e criação de novos produtos e BU’s dentro da empresa.<br>
-
-							<br>
-
-						<span class="descomplica-estilo text-style-2">
-							#WebConversion #Produto #Pesquisa
-						</span>	
-							
-					</p>	
-			</div>
+        /* @media only screen and (min-width: 1170px) {
+			body {
+				background-color: lightblue;
+			}
 
 			
+		} */
+
+        @media only screen and (max-width: 1000px) {
+            .oi-tudo-bem {
+                font-size: 40px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row align-self-center" style="padding-top: 180px">
 
 
-		</div>
-		<br class="clear" />
+            <div class="col-md-6 parent" style="" id="col_change">
 
-		
-	<div class="row align-self-center wow fadeInUp animated" style="width: 100%;">
-		<div class="vamos-conversar">	
-			Vamos conversar? ☕ 
-		</div>	
+                <div class="side-a sideMore wow fadeInLeft animated first">
+                    <div style="padding-left: 10%;" class="p0">
+                        <div>
+                            <div class="oi-tudo-bem">
+                                oi, tudo bem?
+                            </div>
+                        </div>
 
-		<div class="menu-rodape">
+                        <div class="meu-nome">
+                            Meu nome é Gabriela Pessoa, mas pode me chamar <br>
+                            de <span class="meu-nome text-style-1">Gab.</span>
+                        </div>
 
-			<ul class="list-inline" style="width: 100%;">
-				<li class="list-inline-item">
-					<a href="https://www.instagram.com/gabspessoa/">Instagram</a>
-				</li>
-				|
-				<li class="list-inline-item">
-					<a class="menu-rodape-itens" href="https://www.linkedin.com/in/gabriela-pessoa-4310b9b1"  >Linkedin</a>
-				</li>
-				| 
-				<li class="list-inline-item">
-					<a class="menu-rodape-itens"href="mailto:gab.pessoa.oliveira@gmail.com">gab.pessoa.oliveira@gmail.com</a> 
-				</li>
-			</ul>
-	
-		</div>
-		
-	</div>
-</div> <!-- end row -->
 
-</div> <!-- end container -->
+                        <div class="menu-interno" id="menu-interno">
+                            <ul class="list-inline" style="width: 100%;">
+                                <li class="list-inline-item">
+                                    <a class="nav-link" href="#" onclick="toggleVisibility('oi');">Oi!</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="nav-link" href="#" onclick="toggleVisibility('sobre');">Sobre</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="nav-link" href="#" onclick="toggleVisibility('apple-menu');">Apple Academy©</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="nav-link" href="#" onclick="toggleVisibility('descomplica');">Descomplica©</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 MainPart side-c " id="col_change">
+                <div style="" class="p0 sideMore">
+
+                    <div id="oi" style="font-size: 17px;">
+                        <p class="sou-ux wow fadeInRight">
+                            Sou UX Researcher no <a href="https://descomplica.com.br/sobre/quem-somos/">@Descomplica</a> 🕵️‍♀️ <br>
+                            Designer & Pesquisadora, apaixonada por pessoas, trocas, hábitos, conversas e histórias, comportamentos e seus porquês.
+                        </p>
+                    </div>
+                    <div class="sobre_estilo wow fadeInUp animated" id="sobre" style="display: none;font-size: 16px;">
+                        <p class="">
+                            Carioca ☀️, 24 anos, Designer de Produto formada pela PUC - Rio. <br> <br>
+
+                            Entusiasta da Antropologia do Consumo. Aprender sobre cultura, hábitos de consumo e como isso afeta nossas vidas me ajuda a ver de maneira mais holística as investigações do dia a dia. <br> <br>
+
+                            Acredito que dando voz às pessoas hoje, por meio de conversas, ouvidos atentos e empatia, é possível humanizar as relações do futuro. <br> <br>
+
+                            *Atualmente estou empenhada em aprender mais sobre análise/ciência de dados para ter mais domínio sobre pesquisa quantitativa. Tem alguma dica? Curso que achou interessante? Vamos conversar 🤓
+                        </p>
+                    </div>
+
+                    <div class="sobre_estilo wow fadeInUp animated" id="apple-menu" style="display: none;font-size: 15px;margin-top:-10px;">
+
+                        <span style="font-size: 16px;">
+                            UX Designer & iOS Developer | Jan > Out 16
+                        </span>
+
+
+                        <p>
+                            Considero que esse foi o início minha carreira em UX, me desafiando a aprender mais <br>
+                            sobre lógica de programação, desenvolvimento para iOS (Swift) e sobre Usabilidade. <br> Durante o programa tinha muita liberdade de planejamento de projetos e sobre os <br>
+                            nossos processos de trabalho, foi onde eu descobri minha vontade por atuar na área de <br>pesquisa e usabilidade pois tínhamos total autonomia, então sempre implementava<br> processos de pesquisa durante o desenvolvimento e aprendia com os erros.
+
+                            <br> <br>
+
+                            Na Apple Academy trabalhávamos com projetos de diversos temas, mas todos voltados<br>
+                            para desenvolvimento de aplicativos e novas tecnologias, então tive contato desde <br>desenvolvimento de AI, apps para Saúde até aplicativos de compra e venda de ingressos.
+
+                            <br><br><br>
+                            #iOS #UX #Pesquisa
+
+                        </p>
+                    </div>
+
+                    <div class="sobre_estilo wow fadeInUp animated" id="descomplica" style="display: none;font-size: 14px; margin-top:-15px;">
+                        <div>
+                            <p>
+                                <span class="descomplica-estilo text-style-1">
+                                    <span style="font-weight: bold"> Researcher Pleno | Mai 19 &gt; atual </span><br>
+                                    UX Researcher Junior | Mar 18 > Mai 19 <br>
+                                    Product Designer Junior | Jan 18 > Mar 18 <br>
+                                    Estágiária de UX | Out 16 > Dec 17
+                                </span>
+                            </p>
+
+                            <p>
+                                Comecei como estagiária na área de Web Conversion onde tive contato com diversas<br>
+                                áreas que envolviam Performance, Growth, etc. Após um tempo migrei para o time de<br> produto, onde tive a oportunidade de trabalhar e presenciar a migração de sistemas e <br>implementação de uma nova experiência de plataforma de estudos.
+
+                                <br><br>
+
+                                Atualmente dentro da da área de Pesquisa, fico focada em entender comportamentos<br>de estudos, hábitos de consumo e como podemos melhorar o dia a dia dos alunos e da <br>empresa. E para esse entendimento realizo testes de usabilidade, entrevistas<br> qualitativas, pesquisas de campo e análises de dados qualitativos e quantitativos.
+
+                                <br><br>
+
+                                E como Ux Researcher Pleno tenho maior responsabilidade e projetos próprios.<br>
+                                Ativamente em contato com outras áreas para o desenvolvimento das investigações e<br>
+                                em alinhamento com a equipe de Ciência de dados. Entendendo mais sobre projetos e<br> alinhamento com estratégia e criação de novos produtos e BU’s dentro da empresa.<br>
+
+                                <br>
+
+                                <span class="descomplica-estilo text-style-2">
+                                    #WebConversion #Produto #Pesquisa
+                                </span>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end container -->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 align-self-center wow fadeInUp animated footer" style="width: 100%; padding-left:10% ; padding-left: 6%;" id="col_change">
+                    <div class="vamos-conversar">
+                        Vamos conversar? <img src="cup.jpg" width="30" alt="" title="" style="margin-top: -6px;margin-left: 3px;" />
+                    </div>
+
+                    <div class="menu-rodape">
+
+                        <ul class="list-inline" style="width: 100%;">
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/gabspessoa/">Instagram</a>
+                            </li>
+                            |
+                            <li class="list-inline-item">
+                                <a class="menu-rodape-itens" href="https://www.linkedin.com/in/gabriela-pessoa-4310b9b1">Linkedin</a>
+                            </li>
+                            |
+                            <li class="list-inline-item">
+                                <a class="menu-rodape-itens" href="mailto:gab.pessoa.oliveira@gmail.com">gab.pessoa.oliveira@gmail.com</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div> <!-- end row -->
+        </div>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
-	<script src="js/wow.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
 
-	<script>
-		new WOW().init();
-	</script>
-  </body>
+        $(document).ready(function() {
+            $(window).on('resize', function() {
+                var win = $(this); //this = window
+                console.log(win.width());
+                if (win.width() < 767) {
+                    $("#col_change").removeClass("col-md-6").addClass("col-md-12");
+                    $(".side-c").css("max-width", "100%");
+                    $(".oi-tudo-bem").css("font-size", "60px");
+                    // $(".side-c").css("display", "contents");
+
+                } else {
+                    $("#col_change").removeClass("col-md-12").addClass("col-md-6");
+                    $(".side-c").css("max-width", "");
+                    $(".oi-tudo-bem").css("font-size", "80px");
+                    // $(".side-c").css("display", "");
+                }
+            });
+
+        });
+
+    </script>
+</body>
+
 </html>

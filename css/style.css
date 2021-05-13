@@ -8,6 +8,23 @@
         url("//db.onlinewebfonts.com/t/f99da0cc089925103ee1ecbcf5758240.svg#Bodoni SvtyTwo ITC TT") format("svg");
 }
 
+@font-face {
+    font-family: "Helvetica_400";
+    src: url('../fonts/Helvetica_400.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('../fonts/hl_bold.ttf') format('truetype');
+  }  
+
+@font-face {
+    font-family: 'HelveticaLight';
+    src: url('../fonts/helvetica_light.ttf') format('truetype');
+}  
+
+
+
 
 html {
     height: 100%;
@@ -74,16 +91,21 @@ a:visited {
 a:active,
 a:hover,
 a:focus {
-    color: #9013fe;
+    color: #FF1D28;
 }
 
 #oi {
     margin-top: 15%;
 }
 
+.hbold{
+    font-family: 'HelveticaBold';
+    font-size: 15px;
+}
+
 .oi-tudo-bem {
 
-    font-family: BodoniSvtyTwoITCTT;
+    font-family: 'HelveticaLight';
     font-size: 80px;
     font-weight: bold;
     font-style: normal;
@@ -110,7 +132,7 @@ a:focus {
 
 .meu-nome {
     margin-top: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica_400', 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
@@ -126,7 +148,7 @@ a:focus {
 
 .sou-ux {
     margin-left: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica_400', sans-serif;
     font-size: 22px;
     font-weight: normal;
     font-style: normal;
@@ -155,7 +177,7 @@ a:focus {
 }
 
 .vamos-conversar {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica_400', sans-serif;
     font-size: 14px;
     font-weight: bold;
     font-style: normal;
@@ -189,7 +211,7 @@ a:focus {
 }
 
 .sobre_estilo {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica_400', sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -201,7 +223,7 @@ a:focus {
 }
 
 .apple-estilo {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica_400', sans-serif;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -218,7 +240,7 @@ a:focus {
 
 .descomplica-estilo {
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica_400', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;

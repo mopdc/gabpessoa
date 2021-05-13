@@ -1,6 +1,6 @@
 
 
-var divs = ["oi", "sobre", "apple-menu", "descomplica"];
+var divs = ["oi", "sobre", "apple-menu", "descomplica", "outro"];
 
     var visibleDivId = null;
     function toggleVisibility(divId) {
